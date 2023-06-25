@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">Список користувачів</h1>
+    <table align="center" width="80%" cellspacing="0px">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Ім'я</th>
+                <th>Прізвище</th>
+                <th>Пошта</th>
+                <th>Пароль</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <th>1</th>
+                <th>Марк</th>
+                <th>Максин</th>
+                <th>Маркс@gmail.com</th>
+                <th>12345678</th>
+                <th><button class="edit">Редагувати</button></th>
+                <th><button class="delete">Видалити</button></th>
+            </tr>
+        </tbody>
+    </table>
+    <script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>></script>
+    <script src="firebase.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
