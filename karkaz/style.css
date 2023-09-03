@@ -1,0 +1,78 @@
+.card{
+    width: 24rem;
+        padding: 1rem;
+    }
+.card p{
+    font-size: 16px;
+    }
+    input[type="number"], input[type="color"]{
+        width: 100px;
+    }
+.card img{
+    height: 175px;
+    margin: 0 auto;
+    }
+
+.menu{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(219, 211, 128);
+    border-radius: 20px;
+    margin-left: 15%;
+    
+}
+
+.filter{
+    width: 10%;
+    height: 697px;
+    margin-top: 2%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.tovar{
+    width: 80%;
+    height: 697px;
+    margin: auto;
+    margin-top: -44%;
+    margin-left: 15%;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.but1{
+    border: 0px;
+    background-color: rgb(219, 211, 128);
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: cursive;
+    
+
+}
+
+.but2{
+    border: 0px;
+    background-color: rgb(219, 211, 128);
+    margin-left: 4%;
+}
+
+.but3{
+    font-family: monospace;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 20px 0;
+  margin-left: 50%;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
