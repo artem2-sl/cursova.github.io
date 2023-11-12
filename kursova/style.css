@@ -1,0 +1,126 @@
+.menu{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+.filter{
+    background-color: rgb(29, 29, 29);
+    width: 350px;
+    height: 450px;
+    position: fixed;
+    top:18vh;
+    left: 35px;
+    border-radius: 5%;
+}
+.tovari{
+    min-height: 400vh;
+    width: 70vw;
+    background-color: rgb(163, 200, 228);
+    float: right;
+    margin-right: 30px;
+    margin-top: 140px;
+    border-radius: 25px;
+}
+.menu_img:hover{
+    transform: scale(2.1,2.1);
+}
+.menu_img{
+    transform: scale(2,2);
+}
+
+.profile{
+    width: 60%;
+    margin: 15vh auto;
+    background-color: rgb(19, 93, 138);
+    padding: 20px;
+}
+.profile_info{
+    border: 0;
+    background-color: rgb(108, 125, 142);
+}
+.profile_info:focus{
+    border: 0;
+    box-shadow: 0;
+}
+
+.tovar{
+    background-color:rgb(255, 255, 255);
+    width: 300px;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+}
+
+.tovar_img{
+    height: 200px;
+    width: 300px;
+}
+.tovar_opys{
+    height: 250px;
+    width: 300px;
+
+}
+
+.img{
+    height: 200px;
+    width: 300px;
+}
+
+.opys{
+    height: 230px ;
+    width: 280px ;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(146, 146, 146);
+}
+.Btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(168, 38, 255);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(140, 32, 212);
+    transition-duration: .3s;
+  }
+  
+  .svg {
+    width: 13px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: white;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover {
+    color: transparent;
+  }
+  
+  .Btn:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .Btn:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(140, 32, 212);
+  }
